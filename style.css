@@ -1,0 +1,166 @@
+/* Global styles */
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	margin: 1rem 0;
+}
+
+/* Form styles */
+#contact-form {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 0.5rem;
+	padding: 1.5rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 0 5px #ccc;
+	background-color: #f2f2f2;
+}
+
+#contact-form label {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+	white-space: nowrap;
+	padding: 0.5rem;
+}
+
+#contact-form input[type='text'] {
+	display: block;
+	padding: 0.5rem;
+	font-size: 1.1rem;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+#contact-form button[type='submit'] {
+	display: block;
+	position: relative;
+	bottom: 15px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	cursor: pointer;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	width: 100%;
+}
+
+#contact-form button[type='submit']:hover {
+	background-color: #3e8e41;
+}
+#search-form {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	padding: 1.5rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 0 5px #ccc;
+	background-color: #f2f2f2;
+}
+
+#search-form label {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+	white-space: nowrap;
+	padding: 0.5rem;
+}
+
+#search-form input[type='text'] {
+	display: block;
+	padding: 0.5rem;
+	font-size: 1.1rem;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+#search-form button[type='submit'] {
+	display: block;
+	position: relative;
+	bottom: 15px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	cursor: pointer;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	width: 100%;
+}
+
+#search-form button[type='submit']:hover {
+	background-color: #3f3e8e;
+}
+.total-contact-div {
+	display: inline-block;
+	position: relative;
+	left: 38.5rem;
+	bottom: 20rem;
+	font-size: 2rem;
+	font-weight: 700;
+}
+/* Table styles */
+#contact-table {
+	border-collapse: collapse;
+	width: 52%;
+	margin: 0 auto;
+}
+
+#contact-table th,
+#contact-table td {
+	text-align: left;
+	padding: 0.5rem;
+}
+
+#contact-table th {
+	background-color: #f2f2f2;
+}
+
+#contact-table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#contact-table tr:hover {
+	background-color: #ddd;
+}
+
+/* Sort buttons */
+th {
+	text-align: right;
+}
+
+button#sort-asc,
+button#sort-desc {
+	background: none;
+	border: none;
+	font-size: 1rem;
+	cursor: pointer;
+	margin: 1 0.5rem;
+	position: relative;
+	left: 41rem;
+	top: 4rem;
+}
+
+button#sort-asc:hover,
+button#sort-desc:hover {
+	text-decoration: underline;
+}
